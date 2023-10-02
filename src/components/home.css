@@ -1,0 +1,365 @@
+.home{
+    background-color: #FAFAFB;
+}
+
+.one{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.sidebar {
+    max-width: 150px;
+    /* margin-top: 37px;
+    margin-left: 40px; */
+    padding-left: 40px;
+    padding-top: 37px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: flex-start;
+    position: sticky;
+    min-width: 200px;
+}
+
+.body {
+    
+    max-width: 880px;
+}
+
+
+
+.sidebar .notcal{
+    margin: 20px;
+    height: 17.5px;
+    width: 17.5px;
+}
+
+.sidebar .notcal img{
+    height: 17.5px;
+    width: 17.5px;
+}
+
+.calen{
+    height: 20px;
+    width: 20px;
+    margin: 20px;
+    margin-left:19px;
+}
+
+.calen img{
+    height: 20px;
+    width: 20px;
+    object-fit: cover;
+    /* backdrop-filter: ; */
+}
+
+.name{
+    text-align: left;
+    margin: 60px;
+    margin-left: 0px;
+    margin-bottom: 40px;
+    border-bottom: solid 2.5px #f1eeee;
+    padding-bottom: 40px;
+    margin-right: 0px;
+}
+
+.startup{
+    background-color: #ffffff;
+    display: flex;
+    border: solid 3px #f1eeee;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.startup div{
+    width: 380px;
+    text-align: left;
+}
+.startup h1{
+    font-size: 50px;
+    /* border: none; */
+    margin-top: 13.5px;
+    font-weight: 700;
+}
+
+.startup button{
+    background-color: #293D9B;
+    color: white;
+    border-radius: 5px;
+    border: solid #293D9B;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font: inherit;
+}
+
+.computer{
+    width: 350px;
+}
+.computer img{
+    width: 350px;
+}
+
+.two{
+    background-color: #ffffff;
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.commu{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+}
+
+.left div, .right div{
+    display: flex;
+    /* paridhi invaded */
+    border-bottom-style: solid;
+    margin-bottom: 13px;
+    border-bottom-width: 0px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+}
+
+.peo{
+    width: 300px;
+    height: 200px;
+}
+
+.peo img{
+    width: 300px;
+    height: 200px;
+}
+
+.small{
+    width: 80px;
+    height: 80px;
+}
+.small img{
+    width: 80px;
+    height: 80px;
+}
+
+.left div{
+    height: 100px;
+}
+
+.two button{
+    background-color: #ffffff;
+    border: none;
+    /* text-align: center; */
+    font-size: 19px;
+    color: #293D9B;
+    font-weight: 700;
+    /* align-content: center; */
+}
+
+.steps{
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 150px;
+}
+
+.step{
+   
+    text-align: left;
+    margin: 5px;
+    border: solid 2px #f1eeee;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+.nums{
+    color: #293D9B;
+    font-family: inherit;
+    font-weight: 700;
+}
+
+
+.rside{
+    max-width: 280px;
+    margin-left: 100px;
+}
+
+.pay{
+    border: solid 2px #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    text-align: left;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.pay button{
+    background-color: white;
+    border: none;
+    color: #293D9B;
+    font-weight: 500;
+}
+
+.status{
+    border: solid 2px #ffffff;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.girl{
+    width: 110px;
+    height: 110px;
+}
+
+.girl img{
+    width: 110px;
+    height: 110px;
+}
+
+.status button{
+    margin-top: 15px;
+    background-color: white;
+    border: none;
+    color: #293D9B;
+    font-weight: 500;
+}
+
+.exclaim{
+    margin: 14%;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    color: #293D9B;
+    transition: transform 0.2s linear;
+}
+
+.label{
+    display: none;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    width: fit-content;
+    text-align: left;
+    min-width: 150px;
+}
+
+.calen .label{
+    margin-left: 13px;
+}
+/* Side bar animation */
+
+.half{
+    min-width: 200px;
+}
+
+@keyframes example {
+    from {display: none;}
+    to {display: inline;}
+}
+
+.half:hover{
+    /* max-width: 500px; */
+    /* background-image: linear-gradient(to right,#ffffff,#c9c9c7 ); */
+    /* opacity: 0.8; */
+    min-width: 200px;
+    .label{
+        display: inline;
+    }
+    animation-name: example;
+    animation-duration: 1s;
+    /* .body{
+        background-image: linear-gradient(to right,#ffffff,#c9c9c7 );
+    } */
+   
+}
+
+
+
+.icon-container:hover{
+    cursor: pointer;
+    .icon{
+        width: 22px;
+        height: 22px;
+    }
+    
+    .icon img{
+        width: 22px;
+        height: 22px;
+    }
+    .label{
+        display: block;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: inherit;
+        text-align: left;
+        min-width: 200px;
+    }
+    .calen .icon{
+        width: 25px;
+        height: 25px;
+    }
+    
+    .calen .icon img{
+        width: 25px;
+        height: 25px;
+    }
+    transform: scale(1.1);
+}
+  
+  .label {
+    display: none;
+    transition: tranform 1s linear;
+  }
+  
+  .body {
+    transition: opacity 0.6s ease-in-out;
+  }
+  
+  .rside {
+    transition: opacity 0.6s ease-in-out;
+  }
+  
+  .body * {
+    transition: opacity 0.6s ease-in-out;
+  }
+  
+  .rside * {
+    transition: opacity 0.6s ease-in-out;
+  }
+  
+  .icon-container .label {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: none;
+  }
+  
+  /* Show the label when hovering over the icon container */
+  .icon-container:hover .label {
+    margin-top: 10px;
+    opacity: 1;
+    display: inline;
+  }

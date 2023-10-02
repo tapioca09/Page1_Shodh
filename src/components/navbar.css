@@ -1,0 +1,101 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #f1eeee;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+button{
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    color: #293D9B;
+    font-size: 25.88px;
+    font-weight: 700;
+    align-items: center;
+}
+.logo div{
+    height: 32px;
+    width: 32px;
+    
+}
+
+.logo div img{
+    height: 32px;
+    width: 32px;
+}
+.tabs{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs p{
+    padding-left: 25px;
+}
+
+.bell{
+    cursor: pointer;
+    height: 32px;
+    width: 32px;
+}
+.bell img{
+    height: 32px;
+    width: 32px;
+}
+.profile{
+    margin-top: 15px;
+    padding: 0px;
+    margin-bottom: 15px;
+    border-right: 2px solid #f1eeee;
+    margin: 0px;
+    padding-right: 20px;
+}
+
+.portal{
+    color: #293D9B;
+    /* font-size: 47.88px; */
+    font-weight: 700; 
+}
+
+.btn button{
+    background-color: #293D9B;
+    color: white;
+    border-radius: 5px;
+    border: solid #293D9B;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font: inherit;
+}
+
+.search{
+    display: flex;
+    border: solid 2px #f1eeee;
+    width: 280px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search div{
+    width: 25px;
+    height: 25px;
+    margin-right: 6px;
+}
+
+.search div img{
+    width: 25px;
+    height: 25px;
+}
+
+.search input{
+    border: none;
+    width: 260px;
+}
+
