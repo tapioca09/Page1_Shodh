@@ -23,14 +23,14 @@ button{
 .logo div{
     height: 32px;
     width: 32px;
-    
+    margin-right: 16px;
 }
 
 .logo div img{
     height: 32px;
     width: 32px;
 }
-.tabs{
+/* .tabs{
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -38,6 +38,33 @@ button{
 
 .tabs p{
     padding-left: 25px;
+} */
+
+.profile{
+    display: flex;
+    align-items: center;
+}
+
+.down{
+    cursor: pointer;
+    width: 17px;
+    height: 17px;
+}
+
+.down img{
+    width: 17px;
+    height: 17px;
+}
+
+.pic{
+    cursor: pointer;
+    width: 32px;
+    height: 32px;
+}
+
+.pic img{
+    width: 32px;
+    height: 32px;
 }
 
 .bell{
@@ -81,6 +108,7 @@ button{
     width: 280px;
     padding: 5px;
     border-radius: 5px;
+    min-width: 845px;
 }
 
 .search div{
@@ -96,6 +124,12 @@ button{
 
 .search input{
     border: none;
-    width: 260px;
+    width: 780px;
+    font-family: inherit;
 }
+
+.search input:focus{
+    outline: none;
+}
+
 

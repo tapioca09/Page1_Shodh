@@ -92,10 +92,10 @@ const Home = () => {
                 </div>
 
                 <div className="body">
-                    <div><h1 className="name">Hello Ayushi!</h1></div>
+                    <div><h1 className="name">Hello Devanshi!</h1></div>
                     <div className="startup">
                         <div>
-                            <h1>Add your Startup and start recruting!</h1>
+                            <h1>Add your Startup and start recruiting!</h1>
                             <button>Get Started</button>
                         </div>
                         <div className="computer">
