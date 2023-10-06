@@ -105,10 +105,10 @@ button{
 .search{
     display: flex;
     border: solid 2px #f1eeee;
-    width: 280px;
+    /* width: 280px; */
     padding: 5px;
     border-radius: 5px;
-    min-width: 845px;
+    min-width: 1vw;
 }
 
 .search div{

@@ -22,7 +22,7 @@ const navbar = () => {
                  */}
                 <div className="search">
                     <div><img src={mag} alt="" /></div>
-                    <input type="text" placeholder='Search Internships, jobs, startups....'/>
+                    <input type="text" placeholder='Search for talents,community...'/>
                 </div>
                 
                 <div className="bell"><img src={bell} alt="" /></div>

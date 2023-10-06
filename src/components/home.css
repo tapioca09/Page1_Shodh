@@ -265,6 +265,8 @@
     width: fit-content;
     text-align: left;
     min-width: 150px;
+    /* transition: tranform 1s linear; */
+    transition: opacity s ease-in-out;
 }
 
 .calen .label{
@@ -282,19 +284,11 @@
 }
 
 .half:hover{
-    /* max-width: 500px; */
-    /* background-image: linear-gradient(to right,#ffffff,#c9c9c7 ); */
-    /* opacity: 0.8; */
     min-width: 200px;
     .label{
         display: inline;
+        opacity: 1;
     }
-    animation-name: example;
-    animation-duration: 1s;
-    /* .body{
-        background-image: linear-gradient(to right,#ffffff,#c9c9c7 );
-    } */
-   
 }
 
 
@@ -317,6 +311,7 @@
         font-family: inherit;
         text-align: left;
         min-width: 200px;
+        margin-bottom: 5px;
     }
     .calen .icon{
         width: 25px;
@@ -330,10 +325,10 @@
     transform: scale(1.1);
 }
   
-  .label {
+  /* .label {
     display: none;
     transition: tranform 1s linear;
-  }
+  } */
   
   .body {
     transition: opacity 0.6s ease-in-out;
@@ -350,16 +345,20 @@
   .rside * {
     transition: opacity 0.6s ease-in-out;
   }
+
+  
   
   .icon-container .label {
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity s ease-in-out;
     display: none;
   }
   
-  /* Show the label when hovering over the icon container */
+
   .icon-container:hover .label {
     margin-top: 10px;
     opacity: 1;
     display: inline;
   }
+
+  
