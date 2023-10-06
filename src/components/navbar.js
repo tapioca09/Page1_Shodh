@@ -9,7 +9,6 @@ import down from '../Images/down.jpg';
 
 const navbar = () => {
     return ( 
-        <div>
             <div className="navbar">
                 <div className="logo">
                     <div><img src={ logo } alt="" /></div>
@@ -36,7 +35,6 @@ const navbar = () => {
                     <button>Post Job</button>
                 </div>
             </div>
-        </div>
     );
 }
  

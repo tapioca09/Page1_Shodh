@@ -1,5 +1,6 @@
 .home{
     background-color: #FAFAFB;
+    /* position: relative; */
 }
 
 .one{
@@ -17,7 +18,6 @@
     flex-direction: column;
     
     align-items: flex-start;
-    position: sticky;
     min-width: 200px;
 }
 
